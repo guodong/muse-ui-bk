@@ -1,0 +1,14 @@
+{
+  "name": "muse",
+  "productName": "muse",
+  "identifier": "com.museblockchain",
+  "description": "Muse blockchain client",
+  "version": "1.0.151105",
+  "author": "contact@museblockchain.com",
+  "main": "electron.js",
+  "config": {
+    "target": "development"
+  },
+  "dependencies": {
+  }
+}
