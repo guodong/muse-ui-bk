@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 ONBUILD ARG NODE_ENV
 ONBUILD ENV NODE_ENV $NODE_ENV
-RUN COPY . /usr/src/app
+COPY . /usr/src/app
 WORKDIR /usr/src/app/dl
 RUN npm install
 WORKDIR /usr/src/app/web
